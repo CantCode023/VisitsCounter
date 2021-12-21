@@ -1,3 +1,32 @@
+html {
+    height: 100vh;
+}
+
 body {
-    background: green;
+    background: #245723;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    line-height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.main h1 {
+    font-size: 5em;
+}
+
+.main p {
+    font-size: 1em;
+    letter-spacing: 5px;
 }
